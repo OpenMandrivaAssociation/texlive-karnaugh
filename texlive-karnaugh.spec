@@ -1,3 +1,9 @@
+# revision 21338
+# category Package
+# catalog-ctan /macros/latex/contrib/karnaugh
+# catalog-date 2007-01-08 14:40:40 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-karnaugh
 Version:	20070108
 Release:	1
@@ -41,6 +47,7 @@ Charts with up to ten variables (=1024 entries).
 %{_texmfdistdir}/tex/latex/karnaugh/kvmacros.tex
 %doc %{_texmfdistdir}/doc/latex/karnaugh/kvdoc.pdf
 %doc %{_texmfdistdir}/doc/latex/karnaugh/kvdoc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ Charts with up to ten variables (=1024 entries).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
