@@ -48,3 +48,17 @@ Charts with up to ten variables (=1024 entries).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070108-2
++ Revision: 759947
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070108-1
++ Revision: 718767
+- texlive-karnaugh
+- texlive-karnaugh
+- texlive-karnaugh
+- texlive-karnaugh
+
