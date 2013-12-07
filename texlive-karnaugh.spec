@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-karnaugh
 Version:	20070108
-Release:	4
+Release:	5
 Summary:	Typeset Karnaugh-Veitch-maps
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/karnaugh
