@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-karnaugh
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Typeset Karnaugh-Veitch-maps
 Group:		Publishing
