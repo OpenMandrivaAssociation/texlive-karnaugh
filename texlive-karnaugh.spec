@@ -1,6 +1,6 @@
 Name:		texlive-karnaugh
 Version:	21338
-Release:	1
+Release:	2
 Summary:	Typeset Karnaugh-Veitch-maps
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/karnaugh
