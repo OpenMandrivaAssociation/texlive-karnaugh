@@ -3,7 +3,7 @@ Version:	21338
 Release:	2
 Summary:	Typeset Karnaugh-Veitch-maps
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/karnaugh
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/karnaugh
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/karnaugh.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/karnaugh.doc.r%{version}.tar.xz
